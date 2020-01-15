@@ -4,7 +4,11 @@ This project is my **Graduation Project** as a 5th Year **Engineering student at
 
 ## Abstract
 
-Lorem Ipsum
+A **reluctance motor** is a type of electric motor that induces non-permanent magnetic poles on the ferromagnetic rotor. The rotor does not have any windings. It generates torque through magnetic reluctance. Reluctance motors can deliver high power density at low cost, making them attractive for many applications. Until the early twenty-first century, their use was limited by the complexity of designing and controlling them. Advances in theory, computer design tools, and low-cost embedded systems for control overcame these obstacles.
+
+The goal of our graduation project was then to take the reluctance motor as a use case for a complete **synthesis of a control command without sensor**. For these, we had to refer to our theoretical knowledge upon robust and optimal commad, observers usage to replace sensors and general knwoledge on control command scaling. We benchmarked two main observer : **Sliding Mode** and **Kalman Filter** to recreate position sensor.
+
+To go further on those observers, we implemented a **Fault Tolerant Control** command to watch for our observers state and raise error to user if needed using several check routine and an algorithm to detect observers degradations.
 
 ## Table of contents
 
@@ -21,10 +25,10 @@ Lorem Ipsum
 - **3.1  Sliding Mode observer**
 	- 3.1.1  Therory
 	- 3.1.2  Sliding mode observer equation for position sensor
-	- 3.1.3  Simulink implementation for the reluctance motor *Pt/MG*
-	- 3.1.4  Robustness test for *Pt/MG*
-	- 3.1.5  Simulink implementation for the reluctance motor *MG/MG*
-	- 3.1.6  Robustness test for *MG/MG*
+	- 3.1.3  Simulink implementation for the reluctance motor *PI/SM* *(Proportinal-Integral / Sliding Mode)*
+	- 3.1.4  Robustness test for *PI/SM*
+	- 3.1.5  Simulink implementation for the reluctance motor *SM/SM*
+	- 3.1.6  Robustness test for *SM/SM*
 
 - **3.2 Kalman filter**
 	- 3.2.1  Therory
