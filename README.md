@@ -1,4 +1,4 @@
-# Engineering Graduation Project : Reluctance motor synthesis, Sliding Mode and Kalman Filter observers, Fault Tolerant Control command
+# Engineering Graduation Project : Reluctance motor control, Sliding Mode and Kalman Filter observers, Fault Tolerant Control command
 
 This project is my **Graduation Project** as a 5th Year **Engineering student at ESTACA**. Me and my team worked on this projet for 4 months during or last engineering year and this was our main grade for this year toward graduation.
 
